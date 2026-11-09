@@ -1,0 +1,246 @@
+{
+  "derived_columns": [
+    {
+      "description": "Computed by the pipeline for every clean row: quantity multiplied by unit_price, rounded to 2 decimal places.",
+      "formula": "quantity * unit_price",
+      "name": "line_total",
+      "type": "decimal"
+    }
+  ],
+  "description": "One metadata configuration drives ingestion for every NorthMart store feed. The pipeline reads this file to discover source files, map their columns to the unified silver schema, parse their dates, apply defaults for missing columns, and enforce validation rules. Add a new store by adding one entry to \"sources\" - no code changes required.",
+  "project": "Metadata-Driven Lakehouse Ingestion Pipeline",
+  "quarantine_table": "silver.quarantine",
+  "sources": [
+    {
+      "column_mapping": {
+        "Category": {
+          "target": "category",
+          "type": "string"
+        },
+        "Email": {
+          "target": "customer_email",
+          "type": "string"
+        },
+        "OrderDate": {
+          "target": "order_date",
+          "type": "date"
+        },
+        "OrderID": {
+          "target": "order_id",
+          "type": "string"
+        },
+        "Price": {
+          "target": "unit_price",
+          "type": "decimal"
+        },
+        "Product": {
+          "target": "product_name",
+          "type": "string"
+        },
+        "Qty": {
+          "target": "quantity",
+          "type": "integer"
+        },
+        "Store": {
+          "target": "store_id",
+          "type": "string"
+        }
+      },
+      "date_format": "%Y-%m-%d",
+      "date_format_description": "ISO date, e.g. 2026-01-19",
+      "defaults": {},
+      "description": "Store A - POS System. Clean headers close to the target schema.",
+      "file_pattern": "store_a_day1.csv",
+      "source_name": "store_a_pos"
+    },
+    {
+      "column_mapping": {
+        "Cust_Mail": {
+          "target": "customer_email",
+          "type": "string"
+        },
+        "Dept": {
+          "target": "category",
+          "type": "string"
+        },
+        "Item_Name": {
+          "target": "product_name",
+          "type": "string"
+        },
+        "Location": {
+          "target": "store_id",
+          "type": "string"
+        },
+        "Ord_No": {
+          "target": "order_id",
+          "type": "string"
+        },
+        "Trans_Date": {
+          "target": "order_date",
+          "type": "date"
+        },
+        "Unit_Price": {
+          "target": "unit_price",
+          "type": "decimal"
+        },
+        "Units": {
+          "target": "quantity",
+          "type": "integer"
+        }
+      },
+      "date_format": "%d/%m/%Y",
+      "date_format_description": "Day-first date, e.g. 29/01/2026",
+      "defaults": {},
+      "description": "Store B - Legacy Export. Different headers, DD/MM/YYYY dates, $ signs in prices.",
+      "file_pattern": "store_b_day1.csv",
+      "source_name": "store_b_legacy"
+    },
+    {
+      "column_mapping": {
+        "Item": {
+          "target": "product_name",
+          "type": "string"
+        },
+        "MailID": {
+          "target": "customer_email",
+          "type": "string"
+        },
+        "Outlet": {
+          "target": "store_id",
+          "type": "string"
+        },
+        "Qnty": {
+          "target": "quantity",
+          "type": "integer"
+        },
+        "Rate": {
+          "target": "unit_price",
+          "type": "decimal"
+        },
+        "SaleDate": {
+          "target": "order_date",
+          "type": "date"
+        },
+        "TxnID": {
+          "target": "order_id",
+          "type": "string"
+        }
+      },
+      "date_format": "%b %d, %Y",
+      "date_format_description": "Abbreviated month name, e.g. Jan 11, 2026",
+      "defaults": {
+        "category": "Uncategorized"
+      },
+      "description": "Store C - New System. Renamed columns, 'Jan 5, 2026' dates, an extra Discount_Pct column, an unmapped ItemGroup column, and no category column at all - category is defaulted from metadata.",
+      "file_pattern": "store_c_day1.csv",
+      "source_name": "store_c_new"
+    }
+  ],
+  "target_columns": [
+    {
+      "name": "order_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "order_date",
+      "nullable": false,
+      "type": "date"
+    },
+    {
+      "name": "store_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "product_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "quantity",
+      "nullable": false,
+      "type": "integer"
+    },
+    {
+      "name": "unit_price",
+      "nullable": false,
+      "type": "decimal"
+    },
+    {
+      "name": "line_total",
+      "nullable": false,
+      "type": "decimal"
+    },
+    {
+      "name": "customer_email",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "target_table": "silver.clean_sales",
+  "validation_rules": [
+    {
+      "description": "order_id must be non-empty.",
+      "rule_id": "order_id_present",
+      "severity": "reject",
+      "target_column": "order_id"
+    },
+    {
+      "description": "order_id must be unique across the whole load (all files combined). A repeated order_id is quarantined as a duplicate.",
+      "rule_id": "order_id_unique",
+      "severity": "reject",
+      "target_column": "order_id"
+    },
+    {
+      "description": "order_date must parse as a valid date using the source's date_format.",
+      "rule_id": "order_date_valid",
+      "severity": "reject",
+      "target_column": "order_date"
+    },
+    {
+      "description": "order_date must not be in the future (compared with the run date).",
+      "rule_id": "order_date_not_future",
+      "severity": "reject",
+      "target_column": "order_date"
+    },
+    {
+      "description": "quantity must be a whole number between 1 and 999.",
+      "max": 999,
+      "min": 1,
+      "rule_id": "quantity_range",
+      "severity": "reject",
+      "target_column": "quantity"
+    },
+    {
+      "description": "unit_price must be a positive number after stripping currency symbols ($) and thousand separators (,). Text such as 'N/A' fails this rule.",
+      "rule_id": "unit_price_positive",
+      "severity": "reject",
+      "target_column": "unit_price"
+    },
+    {
+      "description": "product_name must be non-empty.",
+      "rule_id": "product_name_present",
+      "severity": "reject",
+      "target_column": "product_name"
+    },
+    {
+      "description": "category must be non-empty after defaults are applied.",
+      "rule_id": "category_present",
+      "severity": "reject",
+      "target_column": "category"
+    },
+    {
+      "description": "customer_email is optional, but when present it must match a basic email pattern (something@domain.tld).",
+      "rule_id": "customer_email_format",
+      "severity": "reject",
+      "target_column": "customer_email"
+    }
+  ],
+  "version": "1.0"
+}
