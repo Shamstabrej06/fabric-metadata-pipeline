@@ -1,0 +1,13 @@
+order_id,order_date,store_id,product_name,category,quantity,unit_price,customer_email,source_file,rejection_reason
+A-1005,2026-01-12,A,Smart Watch Series 7,Electronics,2,249.00,noah.smith@yahoo.ca,store_a_day1.csv,Duplicate order_id
+A-1018,2026-01-27,A,Arabica Coffee Beans 1kg,Grocery,0,21.50,james.roy@yahoo.ca,store_a_day1.csv,Invalid quantity
+A-1025,2026-01-14,A,Fresh Atlantic Salmon Fillet 500g,Grocery,4,,ethan.clark@hotmail.com,store_a_day1.csv,Invalid unit_price
+A-1031,2026-01-18,A,Men's Cotton T-Shirt,Clothing,2,19.99,mike.brown.example.com,store_a_day1.csv,Invalid customer_email
+A-1035,2027-02-14,A,Memory Foam Pillow,Home,2,39.99,zoe.lee@hotmail.com,store_a_day1.csv,Future order_date
+B-2008,2026-01-20,B,4K Smart TV 55-inch,Electronics,-2,549.00,mike.kim@outlook.com,store_b_day1.csv,Invalid quantity
+B-2015,,B,Bluetooth Portable Speaker,Electronics,4,59.99,grace.brown@gmail.com,store_b_day1.csv,Invalid order_date
+A-1007,2026-01-23,B,Men's Cotton T-Shirt,Clothing,3,19.99,chloe.carter@outlook.com,store_b_day1.csv,Duplicate order_id
+B-2027,2026-01-27,B,Cheddar Cheese Block 500g,Grocery,5,,noah.wilson@hotmail.com,store_b_day1.csv,Invalid unit_price
+B-2033,2026-01-31,B,Tablet 10.9-inch 128GB,Electronics,4,329.00,lisa@@mail.com,store_b_day1.csv,Invalid customer_email
+C-3022,2026-01-17,C,,Uncategorized,2,49.99,chloe.lee@yahoo.ca,store_c_day1.csv,Missing product_name
+C-3003,2026-01-31,C,Moisturizing Hand Cream,Uncategorized,3,12.99,emma.kim@outlook.com,store_c_day1.csv,Duplicate order_id

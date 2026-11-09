@@ -1,0 +1,109 @@
+order_id,order_date,store_id,product_name,category,quantity,unit_price,line_total,customer_email
+A-1001,2026-01-19,A,Bamboo Cutting Board Set,Home,2,19.99,39.98,chloe.brown@yahoo.ca
+A-1002,2026-01-07,A,USB-C Fast Charger 65W,Electronics,2,34.99,69.98,chloe.smith@hotmail.com
+A-1003,2026-01-06,A,Extra Virgin Olive Oil 1L,Grocery,5,16.99,84.95,zoe.carter@outlook.com
+A-1004,2026-01-08,A,Throw Blanket,Home,2,32.99,65.98,ethan.dubois@outlook.com
+A-1005,2026-01-28,A,Extra Virgin Olive Oil 1L,Grocery,2,16.99,33.98,ava.adams@outlook.com
+A-1006,2026-01-07,A,Running Shoes,Clothing,2,89.99,179.98,mia.white@outlook.com
+A-1007,2026-01-15,A,Cotton Bath Towel Set,Home,4,27.99,111.96,liam.tremblay@outlook.com
+A-1008,2026-01-23,A,Running Shoes,Clothing,2,89.99,179.98,ahmed.smith@hotmail.com
+A-1009,2026-01-14,A,Running Shoes,Clothing,1,89.99,89.99,
+A-1010,2026-01-11,A,Moisturizing Hand Cream,Personal Care,1,12.99,12.99,ahmed.martin@outlook.com
+A-1011,2026-01-23,A,Fresh Atlantic Salmon Fillet 500g,Grocery,4,14.99,59.96,priya.chen@hotmail.com
+A-1013,2026-01-22,A,Wireless Mouse,Electronics,4,29.99,119.96,noah.smith@outlook.com
+A-1014,2026-01-17,A,Throw Blanket,Home,4,32.99,131.96,zoe.carter@outlook.com
+A-1015,2026-01-26,A,Electric Toothbrush,Personal Care,2,49.99,99.98,ahmed.white@yahoo.ca
+A-1016,2026-01-12,A,Linen Summer Dress,Clothing,3,59.99,179.97,emma.white@outlook.com
+A-1017,2026-01-30,A,Wool Knit Sweater,Clothing,4,54.99,219.96,sophia.gagnon@gmail.com
+A-1019,2026-01-28,A,Natural Shampoo 500ml,Personal Care,3,14.99,44.97,olivia.smith@yahoo.ca
+A-1020,2026-01-21,A,Memory Foam Pillow,Home,4,39.99,159.96,grace.white@yahoo.ca
+A-1021,2026-01-14,A,Wireless Noise-Cancelling Headphones,Electronics,1,189.99,189.99,chloe.taylor@outlook.com
+A-1022,2026-01-18,A,Wool Knit Sweater,Clothing,1,54.99,54.99,ben.dubois@gmail.com
+A-1023,2026-01-24,A,Basmati Rice 5kg,Grocery,2,18.99,37.98,lucas.martin@outlook.com
+A-1024,2026-01-24,A,Memory Foam Pillow,Home,1,39.99,39.99,olivia.taylor@hotmail.com
+A-1026,2026-01-26,A,Wool Knit Sweater,Clothing,1,54.99,54.99,ben.nguyen@hotmail.com
+A-1027,2026-01-05,A,Arabica Coffee Beans 1kg,Grocery,3,21.50,64.50,ben.gagnon@yahoo.ca
+A-1028,2026-01-17,A,Men's Cotton T-Shirt,Clothing,2,19.99,39.98,sarah.lee@gmail.com
+A-1029,2026-01-15,A,Natural Shampoo 500ml,Personal Care,4,14.99,59.96,mike.carter@outlook.com
+A-1030,2026-01-26,A,Throw Blanket,Home,3,32.99,98.97,ahmed.adams@gmail.com
+A-1032,2026-01-27,A,Wireless Noise-Cancelling Headphones,Electronics,4,189.99,759.96,mia.nguyen@gmail.com
+A-1033,2026-01-07,A,Natural Shampoo 500ml,Personal Care,3,14.99,44.97,olivia.gagnon@hotmail.com
+A-1034,2026-01-17,A,Organic Whole Milk 2L,Grocery,4,4.49,17.96,ahmed.chen@outlook.com
+A-1036,2026-01-28,A,Tablet 10.9-inch 128GB,Electronics,2,329.00,658.00,sarah.jones@outlook.com
+A-1037,2026-01-19,A,USB-C Fast Charger 65W,Electronics,4,34.99,139.96,liam.clark@hotmail.com
+A-1038,2026-01-14,A,Sunscreen SPF 50,Personal Care,1,16.99,16.99,mia.jones@yahoo.ca
+A-1039,2026-01-30,A,Wool Knit Sweater,Clothing,2,54.99,109.98,ava.lee@gmail.com
+A-1040,2026-01-18,A,Bamboo Cutting Board Set,Home,1,19.99,19.99,priya.tremblay@outlook.com
+B-2001,2026-01-29,B,Beard Trimmer,Personal Care,4,39.99,159.96,noah.jones@yahoo.ca
+B-2002,2026-01-31,B,Cotton Hoodie,Clothing,3,44.99,134.97,noah.carter@hotmail.com
+B-2003,2026-01-09,B,Beard Trimmer,Personal Care,2,39.99,79.98,sophia.brown@yahoo.ca
+B-2004,2026-01-12,B,Almond Butter 350g,Grocery,1,9.99,9.99,olivia.lee@yahoo.ca
+B-2005,2026-01-25,B,Cheddar Cheese Block 500g,Grocery,4,8.49,33.96,
+B-2006,2026-01-24,B,Wool Knit Sweater,Clothing,4,54.99,219.96,noah.jones@yahoo.ca
+B-2007,2026-01-28,B,Fresh Atlantic Salmon Fillet 500g,Grocery,3,14.99,44.97,sarah.martin@gmail.com
+B-2009,2026-01-22,B,Vitamin C Serum,Personal Care,4,24.99,99.96,lucas.chen@gmail.com
+B-2010,2026-01-12,B,Electric Toothbrush,Personal Care,1,49.99,49.99,daniel.brown@yahoo.ca
+B-2011,2026-01-21,B,Stainless Steel Cookware Set,Home,1,149.99,149.99,lucas.gagnon@outlook.com
+B-2012,2026-01-11,B,Laptop 15-inch 512GB,Electronics,2,1249.99,2499.98,ethan.carter@outlook.com
+B-2013,2026-01-12,B,Electric Toothbrush,Personal Care,3,49.99,149.97,liam.white@yahoo.ca
+B-2014,2026-01-17,B,Wool Knit Sweater,Clothing,4,54.99,219.96,sophia.tremblay@hotmail.com
+B-2016,2026-01-14,B,Men's Cotton T-Shirt,Clothing,3,19.99,59.97,mike.kim@hotmail.com
+B-2017,2026-01-08,B,Ceramic Dinner Set 16pc,Home,4,79.99,319.96,sarah.jones@outlook.com
+B-2018,2026-01-31,B,Basmati Rice 5kg,Grocery,4,18.99,75.96,zoe.dubois@hotmail.com
+B-2019,2026-01-29,B,Ceramic Dinner Set 16pc,Home,1,79.99,79.99,ethan.hassan@outlook.com
+B-2021,2026-01-21,B,Tablet 10.9-inch 128GB,Electronics,3,329.00,987.00,ava.carter@yahoo.ca
+B-2022,2026-01-11,B,Cotton Hoodie,Clothing,1,44.99,44.99,ben.jones@outlook.com
+B-2023,2026-01-17,B,Natural Shampoo 500ml,Personal Care,4,14.99,59.96,james.adams@yahoo.ca
+B-2024,2026-01-24,B,Ceramic Dinner Set 16pc,Home,4,79.99,319.96,emma.patel@yahoo.ca
+B-2025,2026-01-09,B,Basmati Rice 5kg,Grocery,6,18.99,113.94,zoe.roy@gmail.com
+B-2026,2026-01-08,B,Running Shoes,Clothing,3,89.99,269.97,daniel.carter@gmail.com
+B-2028,2026-01-09,B,Mechanical Keyboard,Electronics,3,89.99,269.97,daniel.kim@gmail.com
+B-2029,2026-01-28,B,Fresh Atlantic Salmon Fillet 500g,Grocery,6,14.99,89.94,emma.clark@outlook.com
+B-2030,2026-01-16,B,Bamboo Cutting Board Set,Home,2,19.99,39.98,grace.gagnon@yahoo.ca
+B-2031,2026-01-25,B,Mechanical Keyboard,Electronics,4,89.99,359.96,ethan.patel@hotmail.com
+B-2032,2026-01-27,B,Wool Knit Sweater,Clothing,4,54.99,219.96,james.brown@gmail.com
+B-2034,2026-01-28,B,4K Smart TV 55-inch,Electronics,3,549.00,1647.00,ahmed.kim@outlook.com
+B-2035,2026-01-28,B,Free-Range Eggs 12pk,Grocery,2,6.29,12.58,mike.roy@yahoo.ca
+B-2036,2026-01-16,B,Sunscreen SPF 50,Personal Care,3,16.99,50.97,grace.brown@yahoo.ca
+B-2037,2026-01-16,B,Cheddar Cheese Block 500g,Grocery,1,8.49,8.49,ben.martin@yahoo.ca
+B-2038,2026-01-19,B,Moisturizing Hand Cream,Personal Care,4,12.99,51.96,noah.roy@gmail.com
+B-2039,2026-01-24,B,Wireless Noise-Cancelling Headphones,Electronics,2,189.99,379.98,ben.wilson@yahoo.ca
+B-2040,2026-01-05,B,Arabica Coffee Beans 1kg,Grocery,3,21.50,64.50,chloe.chen@outlook.com
+C-3001,2026-01-11,C,Fresh Atlantic Salmon Fillet 500g,Uncategorized,1,14.99,14.99,ben.tremblay@gmail.com
+C-3002,2026-01-21,C,Linen Summer Dress,Uncategorized,4,59.99,239.96,olivia.lee@outlook.com
+C-3003,2026-01-24,C,Linen Summer Dress,Uncategorized,4,59.99,239.96,ahmed.lee@yahoo.ca
+C-3004,2026-01-20,C,Cotton Bath Towel Set,Uncategorized,4,27.99,111.96,grace.white@gmail.com
+C-3005,2026-01-27,C,Throw Blanket,Uncategorized,2,32.99,65.98,james.patel@outlook.com
+C-3006,2026-01-19,C,Electric Toothbrush,Uncategorized,2,49.99,99.98,ava.jones@yahoo.ca
+C-3007,2026-01-22,C,Leather Belt,Uncategorized,3,29.99,89.97,james.white@yahoo.ca
+C-3008,2026-01-07,C,Mechanical Keyboard,Uncategorized,2,89.99,179.98,noah.smith@yahoo.ca
+C-3009,2026-01-28,C,Laptop 15-inch 512GB,Uncategorized,3,1249.99,3749.97,james.gagnon@gmail.com
+C-3010,2026-01-29,C,Vitamin C Serum,Uncategorized,4,24.99,99.96,ben.jones@outlook.com
+C-3011,2026-01-17,C,Women's Denim Jacket,Uncategorized,4,64.99,259.96,ahmed.jones@yahoo.ca
+C-3012,2026-01-09,C,Almond Butter 350g,Uncategorized,4,9.99,39.96,
+C-3013,2026-01-27,C,Cotton Bath Towel Set,Uncategorized,4,27.99,111.96,zoe.lee@gmail.com
+C-3014,2026-01-26,C,Beard Trimmer,Uncategorized,1,39.99,39.99,chloe.roy@hotmail.com
+C-3015,2026-01-27,C,Sunscreen SPF 50,Uncategorized,3,16.99,50.97,james.roy@outlook.com
+C-3016,2026-01-12,C,Basmati Rice 5kg,Uncategorized,4,18.99,75.96,ahmed.roy@gmail.com
+C-3017,2026-01-21,C,Women's Denim Jacket,Uncategorized,4,64.99,259.96,henry.clark@yahoo.ca
+C-3018,2026-01-29,C,Running Shoes,Uncategorized,4,89.99,359.96,sophia.patel@outlook.com
+C-3019,2026-01-31,C,Wool Knit Sweater,Uncategorized,3,54.99,164.97,sarah.kim@gmail.com
+C-3020,2026-01-26,C,Memory Foam Pillow,Uncategorized,3,39.99,119.97,chloe.white@hotmail.com
+C-3021,2026-01-10,C,Extra Virgin Olive Oil 1L,Uncategorized,2,16.99,33.98,grace.brown@gmail.com
+C-3023,2026-01-10,C,Stainless Steel Cookware Set,Uncategorized,3,149.99,449.97,daniel.tremblay@outlook.com
+C-3024,2026-01-17,C,Beard Trimmer,Uncategorized,4,39.99,159.96,liam.wilson@yahoo.ca
+C-3025,2026-01-13,C,4K Smart TV 55-inch,Uncategorized,1,549.00,549.00,lucas.smith@outlook.com
+C-3026,2026-01-21,C,Memory Foam Pillow,Uncategorized,4,39.99,159.96,daniel.carter@outlook.com
+C-3027,2026-01-09,C,Fresh Atlantic Salmon Fillet 500g,Uncategorized,2,14.99,29.98,zoe.gagnon@outlook.com
+C-3028,2026-01-21,C,Bamboo Cutting Board Set,Uncategorized,2,19.99,39.98,ben.carter@hotmail.com
+C-3029,2026-01-25,C,Ceramic Dinner Set 16pc,Uncategorized,1,79.99,79.99,ahmed.hassan@outlook.com
+C-3031,2026-01-11,C,Mechanical Keyboard,Uncategorized,3,89.99,269.97,daniel.smith@hotmail.com
+C-3032,2026-01-19,C,Whole Wheat Bread Loaf,Uncategorized,5,3.99,19.95,grace.jones@gmail.com
+C-3033,2026-01-07,C,Smart Watch Series 7,Uncategorized,1,249.00,249.00,daniel.hassan@outlook.com
+C-3034,2026-01-24,C,Bamboo Cutting Board Set,Uncategorized,2,19.99,39.98,henry.lee@hotmail.com
+C-3035,2026-01-21,C,Cheddar Cheese Block 500g,Uncategorized,3,8.49,25.47,noah.jones@outlook.com
+C-3036,2026-01-28,C,Almond Butter 350g,Uncategorized,5,9.99,49.95,olivia.roy@gmail.com
+C-3037,2026-01-23,C,Stainless Steel Cookware Set,Uncategorized,4,149.99,599.96,zoe.roy@outlook.com
+C-3038,2026-01-28,C,Laptop 15-inch 512GB,Uncategorized,4,1249.99,4999.96,priya.carter@outlook.com
+C-3039,2026-01-12,C,LED Desk Lamp,Uncategorized,2,24.99,49.98,james.adams@gmail.com
+C-3040,2026-01-30,C,Smart Watch Series 7,Uncategorized,4,249.00,996.00,daniel.clark@hotmail.com
