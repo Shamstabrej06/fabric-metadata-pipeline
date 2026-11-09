@@ -1,0 +1,41 @@
+Ord_No,Trans_Date,Location,Item_Name,Dept,Units,Unit_Price,Cust_Mail
+B-2001,29/01/2026,B,Beard Trimmer,Personal Care,4,$39.99,noah.jones@yahoo.ca
+B-2002,31/01/2026,B,Cotton Hoodie,Clothing,3,$44.99,noah.carter@hotmail.com
+B-2003,09/01/2026,B,Beard Trimmer,Personal Care,2,$39.99,sophia.brown@yahoo.ca
+B-2004,12/01/2026,B,Almond Butter 350g,Grocery,1,$9.99,olivia.lee@yahoo.ca
+B-2005,25/01/2026,B,Cheddar Cheese Block 500g,Grocery,4,$8.49,
+B-2006,24/01/2026,B,Wool Knit Sweater,Clothing,4,$54.99,noah.jones@yahoo.ca
+B-2007,28/01/2026,B,Fresh Atlantic Salmon Fillet 500g,Grocery,3,$14.99,sarah.martin@gmail.com
+B-2008,20/01/2026,B,4K Smart TV 55-inch,Electronics,-2,$549.00,mike.kim@outlook.com
+B-2009,22/01/2026,B,Vitamin C Serum,Personal Care,4,$24.99,lucas.chen@gmail.com
+B-2010,12/01/2026,B,Electric Toothbrush,Personal Care,1,$49.99,daniel.brown@yahoo.ca
+B-2011,21/01/2026,B,Stainless Steel Cookware Set,Home,1,$149.99,lucas.gagnon@outlook.com
+B-2012,11/01/2026,B,Laptop 15-inch 512GB,Electronics,2,"$1,249.99",ethan.carter@outlook.com
+B-2013,12/01/2026,B,Electric Toothbrush,Personal Care,3,$49.99,liam.white@yahoo.ca
+B-2014,17/01/2026,B,Wool Knit Sweater,Clothing,4,$54.99,sophia.tremblay@hotmail.com
+B-2015,31/02/2026,B,Bluetooth Portable Speaker,Electronics,4,$59.99,grace.brown@gmail.com
+B-2016,14/01/2026,B,Men's Cotton T-Shirt,Clothing,3,$19.99,mike.kim@hotmail.com
+B-2017,08/01/2026,B,Ceramic Dinner Set 16pc,Home,4,$79.99,sarah.jones@outlook.com
+B-2018,31/01/2026,B,Basmati Rice 5kg,Grocery,4,$18.99,zoe.dubois@hotmail.com
+B-2019,29/01/2026,B,Ceramic Dinner Set 16pc,Home,1,$79.99,ethan.hassan@outlook.com
+A-1007,23/01/2026,B,Men's Cotton T-Shirt,Clothing,3,$19.99,chloe.carter@outlook.com
+B-2021,21/01/2026,B,Tablet 10.9-inch 128GB,Electronics,3,$329.00,ava.carter@yahoo.ca
+B-2022,11/01/2026,B,Cotton Hoodie,Clothing,1,$44.99,ben.jones@outlook.com
+B-2023,17/01/2026,B,Natural Shampoo 500ml,Personal Care,4,$14.99,james.adams@yahoo.ca
+B-2024,24/01/2026,B,Ceramic Dinner Set 16pc,Home,4,$79.99,emma.patel@yahoo.ca
+B-2025,09/01/2026,B,Basmati Rice 5kg,Grocery,6,$18.99,zoe.roy@gmail.com
+B-2026,08/01/2026,B,Running Shoes,Clothing,3,$89.99,daniel.carter@gmail.com
+B-2027,27/01/2026,B,Cheddar Cheese Block 500g,Grocery,5,N/A,noah.wilson@hotmail.com
+B-2028,09/01/2026,B,Mechanical Keyboard,Electronics,3,$89.99,daniel.kim@gmail.com
+B-2029,28/01/2026,B,Fresh Atlantic Salmon Fillet 500g,Grocery,6,$14.99,emma.clark@outlook.com
+B-2030,16/01/2026,B,Bamboo Cutting Board Set,Home,2,$19.99,grace.gagnon@yahoo.ca
+B-2031,25/01/2026,B,Mechanical Keyboard,Electronics,4,$89.99,ethan.patel@hotmail.com
+B-2032,27/01/2026,B,Wool Knit Sweater,Clothing,4,$54.99,james.brown@gmail.com
+B-2033,31/01/2026,B,Tablet 10.9-inch 128GB,Electronics,4,$329.00,lisa@@mail.com
+B-2034,28/01/2026,B,4K Smart TV 55-inch,Electronics,3,$549.00,ahmed.kim@outlook.com
+B-2035,28/01/2026,B,Free-Range Eggs 12pk,Grocery,2,$6.29,mike.roy@yahoo.ca
+B-2036,16/01/2026,B,Sunscreen SPF 50,Personal Care,3,$16.99,grace.brown@yahoo.ca
+B-2037,16/01/2026,B,Cheddar Cheese Block 500g,Grocery,1,$8.49,ben.martin@yahoo.ca
+B-2038,19/01/2026,B,Moisturizing Hand Cream,Personal Care,4,$12.99,noah.roy@gmail.com
+B-2039,24/01/2026,B,Wireless Noise-Cancelling Headphones,Electronics,2,$189.99,ben.wilson@yahoo.ca
+B-2040,05/01/2026,B,Arabica Coffee Beans 1kg,Grocery,3,$21.50,chloe.chen@outlook.com

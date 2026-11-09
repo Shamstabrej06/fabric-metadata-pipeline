@@ -1,0 +1,41 @@
+TxnID,SaleDate,Outlet,Item,ItemGroup,Qnty,Rate,MailID,Discount_Pct
+C-3001,"Jan 11, 2026",C,Fresh Atlantic Salmon Fillet 500g,Pantry,1,14.99,ben.tremblay@gmail.com,0
+C-3002,"Jan 21, 2026",C,Linen Summer Dress,Apparel,4,59.99,olivia.lee@outlook.com,0
+C-3003,"Jan 24, 2026",C,Linen Summer Dress,Apparel,4,59.99,ahmed.lee@yahoo.ca,0
+C-3004,"Jan 20, 2026",C,Cotton Bath Towel Set,Household,4,27.99,grace.white@gmail.com,15
+C-3005,"Jan 27, 2026",C,Throw Blanket,Household,2,32.99,james.patel@outlook.com,0
+C-3006,"Jan 19, 2026",C,Electric Toothbrush,Wellness,2,49.99,ava.jones@yahoo.ca,0
+C-3007,"Jan 22, 2026",C,Leather Belt,Apparel,3,29.99,james.white@yahoo.ca,15
+C-3008,"Jan 7, 2026",C,Mechanical Keyboard,Audio & Video,2,89.99,noah.smith@yahoo.ca,15
+C-3009,"Jan 28, 2026",C,Laptop 15-inch 512GB,Audio & Video,3,1249.99,james.gagnon@gmail.com,0
+C-3010,"Jan 29, 2026",C,Vitamin C Serum,Wellness,4,24.99,ben.jones@outlook.com,10
+C-3011,"Jan 17, 2026",C,Women's Denim Jacket,Apparel,4,64.99,ahmed.jones@yahoo.ca,0
+C-3012,"Jan 9, 2026",C,Almond Butter 350g,Pantry,4,9.99,,15
+C-3013,"Jan 27, 2026",C,Cotton Bath Towel Set,Household,4,27.99,zoe.lee@gmail.com,0
+C-3014,"Jan 26, 2026",C,Beard Trimmer,Wellness,1,39.99,chloe.roy@hotmail.com,5
+C-3015,"Jan 27, 2026",C,Sunscreen SPF 50,Wellness,3,16.99,james.roy@outlook.com,0
+C-3016,"Jan 12, 2026",C,Basmati Rice 5kg,Pantry,4,18.99,ahmed.roy@gmail.com,0
+C-3017,"Jan 21, 2026",C,Women's Denim Jacket,Apparel,4,64.99,henry.clark@yahoo.ca,0
+C-3018,"Jan 29, 2026",C,Running Shoes,Apparel,4,89.99,sophia.patel@outlook.com,5
+C-3019,"Jan 31, 2026",C,Wool Knit Sweater,Apparel,3,54.99,sarah.kim@gmail.com,0
+C-3020,"Jan 26, 2026",C,Memory Foam Pillow,Household,3,39.99,chloe.white@hotmail.com,15
+C-3021,"Jan 10, 2026",C,Extra Virgin Olive Oil 1L,Pantry,2,16.99,grace.brown@gmail.com,0
+C-3022,"Jan 17, 2026",C,,Wellness,2,49.99,chloe.lee@yahoo.ca,10
+C-3023,"Jan 10, 2026",C,Stainless Steel Cookware Set,Household,3,149.99,daniel.tremblay@outlook.com,5
+C-3024,"Jan 17, 2026",C,Beard Trimmer,Wellness,4,39.99,liam.wilson@yahoo.ca,0
+C-3025,"Jan 13, 2026",C,4K Smart TV 55-inch,Audio & Video,1,549.00,lucas.smith@outlook.com,15
+C-3026,"Jan 21, 2026",C,Memory Foam Pillow,Household,4,39.99,daniel.carter@outlook.com,5
+C-3027,"Jan 9, 2026",C,Fresh Atlantic Salmon Fillet 500g,Pantry,2,14.99,zoe.gagnon@outlook.com,15
+C-3028,"Jan 21, 2026",C,Bamboo Cutting Board Set,Household,2,19.99,ben.carter@hotmail.com,5
+C-3029,"Jan 25, 2026",C,Ceramic Dinner Set 16pc,Household,1,79.99,ahmed.hassan@outlook.com,5
+C-3003,"Jan 31, 2026",C,Moisturizing Hand Cream,Wellness,3,12.99,emma.kim@outlook.com,0
+C-3031,"Jan 11, 2026",C,Mechanical Keyboard,Audio & Video,3,89.99,daniel.smith@hotmail.com,15
+C-3032,"Jan 19, 2026",C,Whole Wheat Bread Loaf,Pantry,5,3.99,grace.jones@gmail.com,15
+C-3033,"Jan 7, 2026",C,Smart Watch Series 7,Audio & Video,1,249.00,daniel.hassan@outlook.com,5
+C-3034,"Jan 24, 2026",C,Bamboo Cutting Board Set,Household,2,19.99,henry.lee@hotmail.com,0
+C-3035,"Jan 21, 2026",C,Cheddar Cheese Block 500g,Pantry,3,8.49,noah.jones@outlook.com,0
+C-3036,"Jan 28, 2026",C,Almond Butter 350g,Pantry,5,9.99,olivia.roy@gmail.com,0
+C-3037,"Jan 23, 2026",C,Stainless Steel Cookware Set,Household,4,149.99,zoe.roy@outlook.com,15
+C-3038,"Jan 28, 2026",C,Laptop 15-inch 512GB,Audio & Video,4,1249.99,priya.carter@outlook.com,0
+C-3039,"Jan 12, 2026",C,LED Desk Lamp,Household,2,24.99,james.adams@gmail.com,0
+C-3040,"Jan 30, 2026",C,Smart Watch Series 7,Audio & Video,4,249.00,daniel.clark@hotmail.com,10

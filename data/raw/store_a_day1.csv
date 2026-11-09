@@ -1,0 +1,41 @@
+OrderID,OrderDate,Store,Product,Category,Qty,Price,Email
+A-1001,2026-01-19,A,Bamboo Cutting Board Set,Home,2,19.99,chloe.brown@yahoo.ca
+A-1002,2026-01-07,A,USB-C Fast Charger 65W,Electronics,2,34.99,chloe.smith@hotmail.com
+A-1003,2026-01-06,A,Extra Virgin Olive Oil 1L,Grocery,5,16.99,zoe.carter@outlook.com
+A-1004,2026-01-08,A,Throw Blanket,Home,2,32.99,ethan.dubois@outlook.com
+A-1005,2026-01-28,A,Extra Virgin Olive Oil 1L,Grocery,2,16.99,ava.adams@outlook.com
+A-1006,2026-01-07,A,Running Shoes,Clothing,2,89.99,mia.white@outlook.com
+A-1007,2026-01-15,A,Cotton Bath Towel Set,Home,4,27.99,liam.tremblay@outlook.com
+A-1008,2026-01-23,A,Running Shoes,Clothing,2,89.99,ahmed.smith@hotmail.com
+A-1009,2026-01-14,A,Running Shoes,Clothing,1,89.99,
+A-1010,2026-01-11,A,Moisturizing Hand Cream,Personal Care,1,12.99,ahmed.martin@outlook.com
+A-1011,2026-01-23,A,Fresh Atlantic Salmon Fillet 500g,Grocery,4,14.99,priya.chen@hotmail.com
+A-1005,2026-01-12,A,Smart Watch Series 7,Electronics,2,249.00,noah.smith@yahoo.ca
+A-1013,2026-01-22,A,Wireless Mouse,Electronics,4,29.99,noah.smith@outlook.com
+A-1014,2026-01-17,A,Throw Blanket,Home,4,32.99,zoe.carter@outlook.com
+A-1015,2026-01-26,A,Electric Toothbrush,Personal Care,2,49.99,ahmed.white@yahoo.ca
+A-1016,2026-01-12,A,Linen Summer Dress,Clothing,3,59.99,emma.white@outlook.com
+A-1017,2026-01-30,A,Wool Knit Sweater,Clothing,4,54.99,sophia.gagnon@gmail.com
+A-1018,2026-01-27,A,Arabica Coffee Beans 1kg,Grocery,0,21.50,james.roy@yahoo.ca
+A-1019,2026-01-28,A,Natural Shampoo 500ml,Personal Care,3,14.99,olivia.smith@yahoo.ca
+A-1020,2026-01-21,A,Memory Foam Pillow,Home,4,39.99,grace.white@yahoo.ca
+A-1021,2026-01-14,A,Wireless Noise-Cancelling Headphones,Electronics,1,189.99,chloe.taylor@outlook.com
+A-1022,2026-01-18,A,Wool Knit Sweater,Clothing,1,54.99,ben.dubois@gmail.com
+A-1023,2026-01-24,A,Basmati Rice 5kg,Grocery,2,18.99,lucas.martin@outlook.com
+A-1024,2026-01-24,A,Memory Foam Pillow,Home,1,39.99,olivia.taylor@hotmail.com
+A-1025,2026-01-14,A,Fresh Atlantic Salmon Fillet 500g,Grocery,4,N/A,ethan.clark@hotmail.com
+A-1026,2026-01-26,A,Wool Knit Sweater,Clothing,1,54.99,ben.nguyen@hotmail.com
+A-1027,2026-01-05,A,Arabica Coffee Beans 1kg,Grocery,3,21.50,ben.gagnon@yahoo.ca
+A-1028,2026-01-17,A,Men's Cotton T-Shirt,Clothing,2,19.99,sarah.lee@gmail.com
+A-1029,2026-01-15,A,Natural Shampoo 500ml,Personal Care,4,14.99,mike.carter@outlook.com
+A-1030,2026-01-26,A,Throw Blanket,Home,3,32.99,ahmed.adams@gmail.com
+A-1031,2026-01-18,A,Men's Cotton T-Shirt,Clothing,2,19.99,mike.brown.example.com
+A-1032,2026-01-27,A,Wireless Noise-Cancelling Headphones,Electronics,4,189.99,mia.nguyen@gmail.com
+A-1033,2026-01-07,A,Natural Shampoo 500ml,Personal Care,3,14.99,olivia.gagnon@hotmail.com
+A-1034,2026-01-17,A,Organic Whole Milk 2L,Grocery,4,4.49,ahmed.chen@outlook.com
+A-1035,2027-02-14,A,Memory Foam Pillow,Home,2,39.99,zoe.lee@hotmail.com
+A-1036,2026-01-28,A,Tablet 10.9-inch 128GB,Electronics,2,329.00,sarah.jones@outlook.com
+A-1037,2026-01-19,A,USB-C Fast Charger 65W,Electronics,4,34.99,liam.clark@hotmail.com
+A-1038,2026-01-14,A,Sunscreen SPF 50,Personal Care,1,16.99,mia.jones@yahoo.ca
+A-1039,2026-01-30,A,Wool Knit Sweater,Clothing,2,54.99,ava.lee@gmail.com
+A-1040,2026-01-18,A,Bamboo Cutting Board Set,Home,1,19.99,priya.tremblay@outlook.com
