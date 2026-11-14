@@ -140,7 +140,6 @@ fabric-metadata-pipeline/
 │       ├── store_b_day1.csv
 │       └── store_c_day1.csv
 ├── docs/
-│   └── upwork_portfolio.md
 ├── outputs/
 │   ├── Sales_Dashboard.xlsx
 │   ├── clean_sales.csv
